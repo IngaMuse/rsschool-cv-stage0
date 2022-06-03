@@ -35,7 +35,18 @@ alert( result );
 ```
 ## Experience
 -------------
+Tester(2015-2021)
+
 ## Education
 ------------
+**University:** Belarusian State Economic University, Bachelor, Accounting
+
+**Courses:**
++ HTML and CSS Tutorials on the [Хекслет](https://ru.code-basics.com/)
++ Testing (EPAM)
++ Java SE, EE (Senla)
++ JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
++ RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 ## English
 ----------
+EPAM English test result: **A2**
