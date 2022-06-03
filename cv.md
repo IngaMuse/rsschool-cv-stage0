@@ -17,8 +17,22 @@ I am able to analyze and optimize work processes, I have management and training
 I approach my work with love and pleasure.
 ## Skills
 ---------
++ HTML
++ CSS/SASS
++ JavaScript (Basic)
++ Git
++ SQL (Basic)
++ Java (Basic)
 ## Code Example
 ---------------
+```
+function sum(a, b) {
+  return a + b;
+}
+
+let result = sum(1, 2);
+alert( result );
+```
 ## Experience
 -------------
 ## Education
