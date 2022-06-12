@@ -42,11 +42,13 @@ nav {
 }
 
 .main {
-  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .footer {
-  border: 1px solid red;
+  background-color: rgb(33, 113, 148);
+  padding: 20px;
 }
 
 @media (max-width: 1440px) {
@@ -86,9 +88,8 @@ nav {
 }
 
 .main-container {
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-
 }
 
 .main-left-container {
@@ -102,40 +103,49 @@ nav {
   background-color: rgb(110, 180, 220, 0.4);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding: 0 50px;
 }
 
-.avatar {
+.header-avatar {
   display: flex;
   justify-content: center;
+  background-color: white;
+  width: 40%;
+  padding: 50px 30px 35px;
+}
+
+.avatar {
   height: 200px;
   width: 200px;
-  margin: 50px 50px;
-  position: relative;
   border-radius: 50%;
   object-fit: cover;
 }
 
 .profile-title {
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  background-color: rgb(110, 180, 220, 0.4);
   text-align: left;
   text-transform: uppercase;
+  padding: 0 50px;
+
 }
+
 .section-title {
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: rgb(79, 86, 93);;
+  color: rgb(19, 38, 202);
+  ;
 }
 
 .main-title {
-  margin-top: 100px;
+  margin-top: 30px;
   font-size: 32px;
   font-weight: 300;
   letter-spacing: 7px;
@@ -144,8 +154,23 @@ nav {
 }
 
 .section-subtitle {
-  margin-bottom: 80px;
   line-height: 30px;
   font-weight: 400;
-  white-space: 2px;
+  word-spacing: 2px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: white;
+}
+
+.rss {
+  width: 121px;
+  height: 45px;
+  background-image: url(../assets/svg/rss.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
