@@ -159,6 +159,98 @@ nav {
   word-spacing: 2px;
 }
 
+.contacts-item {
+  display: flex;
+  align-items: center;
+  margin: 15px 15px 15px 0px;
+}
+
+.contacts-image {
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.section-list {
+  padding: 0;
+}
+
+.section-item {
+  position: relative;
+  padding-left: 30px;
+  list-style-type: none;
+
+}
+
+.contacts-item a {
+  text-decoration: none;
+  color: #217194;
+  transition: color 0.5s;
+}
+
+.contacts-image-map {
+  background-image: url(../assets/svg/map.svg);
+}
+
+.contacts-image-telega {
+  background-image: url(../assets/svg/telegram.svg);
+}
+
+.contacts-image-email {
+  background-image: url(../assets/svg/email.svg);
+}
+
+.contacts-image-github {
+  background-image: url(../assets/svg/github.svg);
+}
+
+.contacts-image-discord {
+  background-image: url(../assets/svg/discord.svg);
+}
+
+.section-item::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  width: 14px;
+  height: 14px;
+  background-size: 14px 14px;
+  background-image: url(../assets/svg/mark.svg);
+}
+
+.courses-item::before {
+
+  background-color: #217194;
+  border-radius: 50%;
+}
+
+.courses-item a {
+  text-decoration: none;
+  color: #217194;
+  transition: color 0.5s;
+}
+
+.experience {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.date {
+  margin-right: 10px;
+  text-align: center;
+  background-color: #217194;
+  color: black;
+  border-radius: 4px;
+  display: inline-block;
+  font-family: 'ralewaybold';
+  padding: 2px 10px;
+}
+
 .footer-container {
   display: flex;
   justify-content: space-between;
