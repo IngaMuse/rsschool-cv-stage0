@@ -90,6 +90,7 @@ nav {
   width: 40%;
   padding: 0 50px 0 70px;
   background-color: #ffffff;
+  margin-right: 0;
 }
 
 .main-right-container {
@@ -98,6 +99,7 @@ nav {
   flex-direction: column;
   padding: 0 50px;
   background-color: rgb(110, 180, 220, 0.4);
+  margin-left: 0;
 }
 
 .header-avatar {
@@ -106,6 +108,7 @@ nav {
   width: 40%;
   padding: 50px 30px 35px;
   background-color: #ffffff;
+  margin-right: 0;
 }
 
 .avatar {
@@ -125,6 +128,7 @@ nav {
   background-color: rgb(110, 180, 220, 0.4);
   text-align: left;
   text-transform: uppercase;
+  margin-left: 0;
 }
 
 .section-title {
@@ -175,7 +179,6 @@ nav {
   position: relative;
   padding-left: 30px;
   list-style-type: none;
-
 }
 
 .contacts-item a {
