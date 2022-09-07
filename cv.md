@@ -3,7 +3,7 @@
 ## Contacts
 -----------
 + Location: Minsk, Belarus
-+ Phone: +375 29 629-88-81
++ Telegram: @Inga_muse
 + Email: ingamoshkareva@gmail.com
 + GitHub: [IngaMuse](https://github.com/IngaMuse)
 + Discord: IngaM
