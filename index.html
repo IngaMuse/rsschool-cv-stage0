@@ -1,1 +1,185 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RSSchool CV</title>
+    <link rel="icon" href="./assets/img/astronavt-kostyum-skafandr-7317.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about-me" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code-example" class="nav-link">Code Example</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#english" class="nav-link">English</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main-container">
+        <div class="container section header-avatar">
+          <img src="assets/img/p1.jpg" class="avatar" alt="Header_avatar" />
+        </div>
+        <section class="container profile-title">
+          <h1 class="section-title main-title">Inga Moshkareva</h1>
+          <h3 class="section-subtitle">Junior Front-End Developer</h3>
+        </section>
+      </div>
+      <div class="container main-left-container">
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="section-list">
+            <li class="contacts-item">
+              <div class="contacts-image contacts-image-map"></div>
+              <div class="contacts-text">Minsk, Belarus</div>
+            </li>
+            <li class="contacts-item">
+              <div class="contacts-image contacts-image-telega"></div>
+              <div class="contacts-text">
+                Telegram:
+                <a href="https://t.me/Inga_muse" title="Telegram">@Inga_muse</a>
+              </div>
+            </li>
+            <li class="contacts-item">
+              <div class="contacts-image contacts-image-email"></div>
+              <div class="contacts-text">
+                Email:
+                <a href="mailto:ingamoshkareva@gmail.com" title="Email"
+                  >ingamoshkareva@gmail.com</a
+                >
+              </div>
+            </li>
+            <li class="contacts-item">
+              <div class="contacts-image contacts-image-github"></div>
+              <div class="contacts-text">
+                GitHub:
+                <a href="https://github.com/IngaMuse" title="GitHub"
+                  >IngaMuse</a
+                >
+              </div>
+            </li>
+            <li class="contacts-item">
+              <div class="contacts-image contacts-image-discord"></div>
+              <div class="contacts-text">
+                Discord: <a href="https://discord.com" title="Discord">IngaM</a>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="section-list">
+            <li class="section-item">HTML</li>
+            <li class="section-item">CSS/SASS</li>
+            <li class="section-item">JavaScript (Basic)</li>
+            <li class="section-item">Git</li>
+            <li class="section-item">SQL (Basic)</li>
+            <li class="section-item">Java (Basic)</li>
+          </ul>
+        </section>
+        <section class="section" id="english">
+          <h2 class="section-title">English</h2>
+          <p>English test result(EPAM): <b>A2</b></p>
+        </section>
+      </div>
+      <div class="container main-right-container">
+        <section class="section" id="about-me">
+          <h2 class="section-title">About Me</h2>
+          <p>
+            I have good interpersonal skills, I am an excellent team worker and
+            very willing to learn and develop my new skills. I am able to
+            analyze and optimize work processes. I have management and training
+            skills. I have a critical view of the world, am responsible,
+            attentive to detail. I approach my work with love and pleasure.
+          </p>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              University:
+              <span
+                >Belarusian State Economic University, Bachelor,
+                Accounting</span
+              >
+            </li>
+            <li class="section-item">
+              Courses:
+              <ul class="section-list">
+                <li class="section-item courses-item">
+                  HTML and CSS Tutorials on the
+                  <a href="https://ru.code-basics.com/">Hexlet</a>
+                </li>
+                <li class="section-item courses-item">Testing (EPAM)</li>
+                <li class="section-item courses-item">Java SE, EE (Senla)</li>
+                <li class="section-item courses-item">
+                  JavaScript Manual on
+                  <a href="https://learn.javascript.ru/">Learnjavascript</a> (in
+                  progress)
+                </li>
+                <li class="section-item courses-item">
+                  RS Schools Course
+                  <a href="https://rs.school/js-stage0/"
+                    >«JavaScript/Front-end.Stage 0»</a
+                  >
+                  (in progress)
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="experience">
+          <h2 class="section-title">Experience</h2>
+          <div class="experience">
+            <div class="date">2015-2021</div>
+            <p>Tester</p>
+          </div>
+        </section>
+        <section class="section" id="code-example">
+          <h2 class="section-title">Code Example</h2>
+          <pre class="pre">
+<code>function sum(a, b) {
+return a + b;
+}
+let result = sum(1, 2);
+alert(result);</code>
+  </pre>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div>
+          © 2022
+          <a href="https://github.com/IngaMuse" class="github nav-link"
+            >IngaMuse</a
+          >
+        </div>
+        <a href="https://rs.school/js/" class="rss"></a>
+      </div>
+    </footer>
+  </body>
+</html>
